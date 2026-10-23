@@ -1,6 +1,7 @@
 local ALLOWED_IDS = { [9081672034] = true,
                       [10120157484] = true,
                       [2883477650] = true,
+                      [11772504609] = true,
  }
 
 local player = game:GetService("Players").LocalPlayer
