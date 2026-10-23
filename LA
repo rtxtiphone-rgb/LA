@@ -17098,7 +17098,7 @@ do
   |   |___  /  /_____\  \
   |_______|/__/       \__\   ver
 
-    ]], "ver", "v1.1")
+    ]], "ver", "v1.2")
 
 									warn(v24)
 								end
@@ -34841,7 +34841,7 @@ Escape Timer: %*]]
 
 		v19 = lib:CreateWindow({
 			Title = "<b>LA</b>",
-			Footer = ("<b>Проект LA %* | FTAP</b>"):format("v1.1"),
+			Footer = ("<b>Проект LA %* | FTAP</b>"):format("v1.2"),
 			ToggleKeybind = Enum.KeyCode.RightShift,
 			Center = true,
 			AutoShow = true,
@@ -34937,7 +34937,7 @@ Escape Timer: %*]]
 				local floor = math.floor
 				local dataPing = Stats2.Network.ServerStatsItem["Data Ping"]
 				local getValue = dataPing.GetValue
-				setText(v23,("LA %s | %s fps | %s ms"):format("v1.1", math.floor(Stats2.Workspace.Heartbeat:GetValue()), floor(getValue(dataPing))))
+				setText(v23,("LA %s | %s fps | %s ms"):format("v1.2", math.floor(Stats2.Workspace.Heartbeat:GetValue()), floor(getValue(dataPing))))
 				task.wait(1)
 			end
 		end)
@@ -35016,7 +35016,7 @@ Escape Timer: %*]]
 		do
 			local Statistics = tbl15.Home:AddRightGroupbox("Statistics", "chart-no-axes-combined")
 			Statistics:AddLabel("CurrentTime", { Text = "Current time: 00:00", DoesWrap = true })
-			Statistics:AddLabel("VerLabel", { Text = ("Current script version: <b>%*</b>"):format("v1.1"), DoesWrap = true })
+			Statistics:AddLabel("VerLabel", { Text = ("Current script version: <b>%*</b>"):format("v1.2"), DoesWrap = true })
 			Statistics:AddLabel("TogglesCurrentlyOn", { Text = "Toggles currently enabled: 0", DoesWrap = true })
 			Statistics:AddDivider("Server Statistics")
 			Statistics:AddLabel("Game name: <b>Fling Things and People</b>")
