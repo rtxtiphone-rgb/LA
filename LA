@@ -36410,7 +36410,7 @@ Escape Timer: %*]]
 
 		Antis:AddToggle("AntiLag", {
 			Text = "Anti Lag",
-			Default = false,
+			Default = true,
 			Tooltip = "Anti Line-Lag & Sticky-Lag",
 			Callback = function(arg)
 				local enabled = not arg
