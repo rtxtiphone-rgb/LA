@@ -17319,7 +17319,7 @@ ver
 							AntiPaint = false,
 							AntiBlobman = false,
 							AutoAntiLag = true,
-							AntiInputLag = false,
+							AntiInputLag = true,
 							AntiSticky = false,
 							AntiShurikenLag = false,
 							AntiBanana = false,
