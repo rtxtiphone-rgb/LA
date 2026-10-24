@@ -36212,7 +36212,7 @@ Escape Timer: %*]]
 
 		Antis:AddToggle("AntiInputLag", {
 			Text = "Anti Network Ownership",
-			Default = false,
+			Default = true,
 			Tooltip = "Anti Blob-kill, etc.",
 			Callback = function(arg)
 				tbl12.SetRuntimeToggle("AntiInputLag", arg)
